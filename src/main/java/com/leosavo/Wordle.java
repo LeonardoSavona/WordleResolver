@@ -56,6 +56,7 @@ public class Wordle {
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         ) {
             bufferedWriter.write(
+                "Attempts:        "+MAX_ATTEMPTS+"\n"+
                     "Guessed words:   "+guessedWords+"\n" +
                     "Failed words:    "+failedWords+"\n" +
                     "Games   Wins   Loses\n"+
